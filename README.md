@@ -17,7 +17,7 @@ python3 -m asena_installer
 
 [@SelaxG](https://t.me/SelaxG)
 
-[@phaphaticusthiccy](https://t.me/phaticusthiccy)
+[@phaticusthiccy](https://t.me/phaticusthiccy)
 
 ## Lisans
 Bu proje GPL-3.0 lisansı ile korunmaktadır.

@@ -3,7 +3,7 @@
 
 HerokuAPI'si kullanılarak yapılmış Otomatik Asena Deploy'er
 
-Asena Reposunu kontrol edin: https://github.com/Quiec/AsenaUserBot
+Asena Reposunu kontrol edin: https://github.com/phaticusthiccy/AsenaUserBotDuplicated
 ## Kurulum
 ```sh
 git clone https://github.com/Dev-Xen/AsenaDuplicated-Installer

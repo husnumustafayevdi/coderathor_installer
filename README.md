@@ -1,5 +1,5 @@
 # Asena Installer
-[![Run on Repl.it](https://repl.it/badge/github/Dev-Xen/AsenaDuplicated-Installer)](https://repl.it/github/phaticusthiccy/installer)
+[![Run on Repl.it](https://repl.it/badge/github/Dev-Xen/AsenaDuplicated-Installer)](https://repl.it/@phaticusthiccy/installer)
 
 HerokuAPI'si kullanılarak yapılmış Otomatik Asena Deploy'er
 

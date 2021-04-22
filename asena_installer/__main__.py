@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
     if os.path.isdir("./brenduserbot/"):
         rm_r("./brenduserbot/")
-    repo = Repo.clone_from(brend_repo,"./brenduserbot/", branch="brenduserbot")
+    repo = Repo.clone_from(brend_repo,"./brenduserbot/", branch="master")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)

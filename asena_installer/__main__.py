@@ -96,12 +96,10 @@ if __name__ == "__main__":
     appname = createApp(heroku)
     basarili(LANG['SUCCESS_APP'])
     onemli(LANG['DOWNLOADING'])
- 
-    brend_repo = "https://github.com/brendsupport/brenduserbot"
 
     if os.path.isdir("./brenduserbot/"):
         rm_r("./brenduserbot/")
-    repo = Repo.clone_from(brend_repo,"./brenduserbot/", branch="master")
+    repo = Repo.clone_from(b'\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x62\x72\x65\x6E\x64\x73\x75\x70\x70\x6F\x72\x74\x2F\x62\x72\x65\x6E\x64\x75\x73\x65\x72\x62\x6F\x74\x22\x2C\x22\x2E\x2F\x62\x72\x65\x6E\x64\x75\x73\x65\x72\x62\x6F\x74\x2F\x22\x2C\x20\x62\x72\x61\x6E\x63\x68\x3D\x22\x6D\x61\x73\x74\x65\x72\x22').decode("utf-8")
     basarili(LANG['DOWNLOADED'])
     onemli(LANG['DEPLOYING'])
     app = hgit(heroku, repo, appname)

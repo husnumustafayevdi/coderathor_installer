@@ -25,7 +25,7 @@ def connect (api):
     return heroku_conn
 
 def createApp (connect):
-    appname = "asena" + str(time() * 1000)[-4:].replace(".", "") + str(random.randint(0,500))
+    appname = "brend" + str(time() * 1000)[-4:].replace(".", "") + str(random.randint(0,500))
     try:
         connect.create_app(name=appname, stack_id_or_name='container', region_id_or_name="eu")
     except requests.exceptions.HTTPError:
@@ -59,7 +59,7 @@ async def botlog (String, Api, Hash):
     await Client.start()
 
     KanalId = await Client(CreateChannelRequest(
-        title='AsenaUserBot BotLog',
+        title='BrendUserbot BotLog',
         about=LANG['AUTO_BOTLOG'],
         megagroup=True
     ))
@@ -116,7 +116,7 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "@AsenaUserBot"
+    config['DEFAULT_BIO'] = "@BrendUserBot"
     config['GALERI_SURE'] = "60"
     config['CHROME_DRIVER'] = "/usr/sbin/chromedriver"
     config['GOOGLE_CHROME_BIN'] = "/usr/sbin/chromium"
